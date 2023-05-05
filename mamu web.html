@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My website</title>
+</head>
+<body style="background-image: url(pict.jpg.jpg);">
+    <header>
+		<h1><center><u>CURRICULUM VITAE (CV)</u></center></h1>
+		<nav>
+			<ul>
+				<li><a href="#personal-information"><strong>Personal Information</strong></a></li>
+				<li><a href="#educational-background"><strong>Educational Background</strong></a></li>
+				<li><a href="#working-experience"><strong>Working Experience</strong></a></li>
+				<li><a href="#skills"><strong>Skills</strong></a></li>
+				<li><a href="#professional-course"><strong>Professional Course</strong></a></li>
+				<li><a href="#projects"><strong>Projects</strong></a></li>
+				<li><a href="#management-experience"><strong>Management Experience</strong></a></li>
+				<li><a href="#dependents"><strong>Dependents</strong></a></li>
+			</ul>
+		</nav>
+	</header>
+    <main>
+		<section id="personal-information">
+			<h2>Personal Information</h2>
+			<ul>
+				<li><strong>Name:</strong> Maryam Bakar</li>
+				<li><strong>Date of Birth:</strong> September 1, 1999</li>
+				<li><strong>Address:</strong>Mwera, Zanzibar</li>
+				<li><strong>Phone:</strong> (255) 62341-0064</li>
+				<li><strong>Email:</strong>bakarimaryam570@gmail.com</li>
+				<li><strong>Website:</strong> www.mamcharming.com</li>
+			</ul>
+		</section>
+		<section id="educational-background">
+			<h2><strong> Education Background</strong></h2>
+			<ul>
+			<li>University Education</li>
+			<ul>
+			<li>University of SUZA 2021-2024</li>
+			<ul>
+			<li>Advanced Education</li>
+			<ul>
+			<li>Dr Shein Secondary School 2019-2021</li>
+			<ul>
+			<li>Ordinary Eduction</li>
+			<ul>
+			<li>Regez Mwendo Secondry School 2015-2018</li>
+			<ul>
+			<li>Primary Education</li>
+			<ul>
+			<li>Makadara Primary School 2008-2014</li>
+			</ul>
+			</ul>
+			</ul>
+			</ul>
+			</ul>
+			</ul>
+			</ul>
+			</ul>
+		</section>
+		<section id="working-experience">
+			<h2>Working Experience</h2>
+			<ul>
+				<li><strong>SUZA Young Developer</strong></li>
+				<ul>
+					<li>Voter Observer</li>
+					<li>October-2020</li>
+				</ul>
+				</ul>
+			</ul>
+		</section>
+		<section id="skills">
+			<h2>Skills</h2>
+			<ul>
+				<li>Java</li>
+				<li>C++</li>
+				<li>Python</li>
+				<li>HTML5</li>
+				<li>CSS</li>
+            </ul>
+		</ul>
+	</section>
+	<section id="professional-course">
+		<h2>Professional Course</h2>
+		<ul>
+		  <li>Course Database, Institution SUZA</li>
+		  <li>Course Geographical Information Technology, Institution SUZA</li>
+		  <li>Course Principle of Account, Institution SUZA</li>
+		  <li>Course Information System, Institution SUZA</li>
+		  <li>Course Python, Institution SUZA</li>
+		</ul>
+	</ul>
+		</section>  
+		<section id="projects">
+			<h2>projects</h2>
+			<ul>
+					<li>to create website</li>
+					<li>to design form by using HTML/CSS</li>
+					<li>Github Technology</li>
+					<li>Lectures</li>
+					<li>Designer</li>
+					<li>pril, 29,2023</li>
+
+				</ul>
+			</ul>
+		</section>
+		<section id="management-experience">
+			<h2>Management Experience</h2>
+			<ul>
+					<li>Standard seven I were environmental leader</li>
+					<li>Form four I were vise president </li>
+					<li>Form six I were cultural leader</li>
+
+				</ul>
+			</ul>
+		</section>
+		<section id="dependents">
+			<h2>Dependents</h2>
+			<ul>
+					<li>Maryam Bakar</li>
+					<li>Bakar Kitwana</li>
+					<li>Yasmin Hassan</li>
+					<li>Hawa Haji</li>
+					<li>Yassin Bakar</li>
+				</ul>
+			</ul>
+		</section>
+		<form id="form">
+				<label for="name">Name</label>
+				<input id="name" type="text" name="name" required>
+				<br>
+				<br>
+				<label for="Address">Address</label>
+				<input id="address" type="text" name="Adress"  required>
+				<br><br>
+				<label for="email">email</label>
+				<input id="email" type="email" name="email"  required>
+				<br><br>
+				<label for="comment">Comment</label>
+				<input id="comment" type="comment" name="comment"  required>
+				<br>
+				<button type="submit">Send</button>
+		</form>
+		<br>
+		<br>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31734.390675803617!2d39.24402168912732!3d-6.157691236614672!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x185cd713e97ac785%3A0xa9a688789542ea7!2sMwera!5e0!3m2!1sen!2stz!4v1683028105107!5m2!1sen!2stz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			
+</body>
+<script>
+	let form=document.getElementById("form");
+	form.addEventListener("submit", function(event){
+		event.preventDefault();
+		let name = document.getElementById("name").value;
+		let Address = document.getElementById("address").value;
+		let email = document.getElementById("email").value;
+		let comment = document.getElementById("comment").value;
+		let contact = {name:name, address:address, email:email, comment:comment};
+		let contacts = JSON.parse(localStorage.getItem("contacts")) || [];
+		contacts.push(contact);
+		localStorage.setItem("contacts", JSON.stringify(contacts));
+		alert("successfully");
+		form.reset();
+		
+	});
+</script>
+</html>
